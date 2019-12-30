@@ -1,0 +1,38 @@
+Package: et
+Priority: optional
+Section: universe/net
+Installed-Size: 4559
+Maintainer: Jason Gauci <jgmath2000@gmail.com>
+Architecture: amd64
+Version: 6.0.5-stretch1
+Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.15), libgcc1 (>= 1:3.3), libprotobuf-lite10, libsodium18 (>= 0.6.0), libstdc++6 (>= 6), libutempter0 (>= 1.1.5), libprotobuf-dev, libsodium-dev, libtinfo5, libutempter-dev
+Filename: pool/main/e/et/et_6.0.5-stretch1_amd64.deb
+Size: 680166
+MD5sum: e32dae7a5f8c55a88ea6c08150f628e0
+SHA1: ef98f7d9d0821d06b9e05c0253b333a07245b4b7
+SHA256: adcd91ee1e78075f042c223e2f2ecd2cfff73fc874d13d96c1b1ff87b158884a
+SHA512: 6ff6f0d040ab0460db2232987a2b710e895618a9956183f0d0a9e88092a59f881f15839dd8572db1bd7893c2f7ed81fd62a94a2bcacdcaa545ef8f7b0dddec7a
+Description: Remote terminal for the busy and impatient
+ Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
+Homepage: https://mistertea.github.io/EternalTCP/
+
+Package: et-dbgsym
+Priority: extra
+Section: universe/debug
+Installed-Size: 44416
+Maintainer: Jason Gauci <jgmath2000@gmail.com>
+Architecture: amd64
+Source: et
+Version: 6.0.5-stretch1
+Depends: et (= 6.0.5-stretch1)
+Filename: pool/main/e/et/et-dbgsym_6.0.5-stretch1_amd64.deb
+Size: 43879252
+MD5sum: 83e5ed5e683234588068f80d549ef011
+SHA1: 60526c7ce532e69b75c092cbdbda12a8944f6c70
+SHA256: a0e74d6b221f44de02741cbcb94a67d22079f28630710f19c05dcfb43a8e812c
+SHA512: 1cccefebdff5bd5af14ec533f0d69d0a69b88e764495ca01284b7a67eac4df9fab00a4d140eae16d0fcdba1ed070f6578dff9bb8a1d9ac6e864ef1aadd76d966
+Description: Debug symbols for et
+Homepage: https://mistertea.github.io/EternalTCP/
+Auto-Built-Package: debug-symbols
+Build-Ids: 5ac42392ef1fda7867120f311e68db534e1487b3 b5e3a4761c46ef2feb78a82b66570502823bf376 d8e32f56e61eb58e40dd912c9e42e315936909f9 ef574fef4512e1003ae7b2c64dd637d1e5c63cdf f53c70dceae30bf3de3d6c7f43840f7c262791d4
+
