@@ -1,0 +1,5 @@
+Origin: . bookworm
+Label: . bookworm
+Archive: bookworm
+Architecture: armhf
+Component: main

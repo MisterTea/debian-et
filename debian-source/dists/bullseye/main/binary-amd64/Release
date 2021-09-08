@@ -1,0 +1,5 @@
+Origin: . bullseye
+Label: . bullseye
+Archive: bullseye
+Architecture: amd64
+Component: main
