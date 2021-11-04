@@ -1,17 +1,17 @@
 Package: et
 Priority: optional
 Section: universe/net
-Installed-Size: 5030
+Installed-Size: 5363
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armel
-Version: 6.1.8-buster1
+Version: 6.1.9-buster1
 Depends: libatomic1 (>= 4.8), libc6 (>= 2.28), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.5), libprotobuf-lite17, libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 8.3.0-6), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libprotobuf-dev, libsodium-dev, libtinfo5, libutempter-dev, libcurl4-openssl-dev, libssl-dev, libunwind-dev
-Filename: pool/main/e/et/et_6.1.8-buster1_armel.deb
-Size: 837572
-MD5sum: 04afd17b6acc5618ef83197969467383
-SHA1: 661fe71383cd6f84086b9a510cfaf135d1e882b6
-SHA256: 93681db00db36cd6cab6ee0d5e6d6d03ebdce90aae2a4d2597b73039ec11b46e
-SHA512: 48a7de37bf324016dfc58062814ae3c8c6ab54dcd5f3f3999a75c71dac80d89f217a04282f657895f74683c228646987e8e71b547f7702bb31e838828b12954f
+Filename: pool/main/e/et/et_6.1.9-buster1_armel.deb
+Size: 863572
+MD5sum: 5b4c55ddaf17ec7a54afcd10ade61af2
+SHA1: e439802b5675cabbe25cf237f37264f00aa624cc
+SHA256: 779501e69a6296881b73a0dcb929dd422d9104db59d6a70a2ccaae91dce424bc
+SHA512: a683d192705d8a8904a15a9225883fe51819cfcc6304b2a867e6bb3ec504b21f6cc9ff2b27a839f8ef73d204a0ef47e52e83492a668d9316086d75fa24b173f6
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -19,19 +19,19 @@ Homepage: https://mistertea.github.io/EternalTCP/
 Package: et-dbgsym
 Priority: optional
 Section: universe/debug
-Installed-Size: 78230
+Installed-Size: 78027
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armel
 Source: et
-Version: 6.1.8-buster1
-Depends: et (= 6.1.8-buster1)
-Filename: pool/main/e/et/et-dbgsym_6.1.8-buster1_armel.deb
-Size: 77570292
-MD5sum: eef0b6e85c3bd9dc78c1bf4f87882b1b
-SHA1: 80245a883dd61f7245a373c9b6ef641422e3a9eb
-SHA256: f399b84754238574183dcd2e3c730c8752b7f6e725bcea91a565b1d77d3b8338
-SHA512: ee5528c6a01d5e3f45d0515f3e0524ab9122388bd81a89a368dfca06a185e695692e42edfba7b8f76c57e7af9fb76ebf9c82fa4f1c01fe34a79c10052156b3ea
+Version: 6.1.9-buster1
+Depends: et (= 6.1.9-buster1)
+Filename: pool/main/e/et/et-dbgsym_6.1.9-buster1_armel.deb
+Size: 77318420
+MD5sum: 38149b81713b2998b8a061cd7d459eab
+SHA1: b633681b522d14eed71f11cd93d0f3f62e830be3
+SHA256: c3f5b5677e74df5a3df37a716b54a9b158303e0c1f7f2d1721d4d58f85fc5303
+SHA512: 1335d107158b1259577ab8b1904c3351f87a78326ef0a38f4ee26d687c074edc622f7002b2c828927c89b927d4f9c41228320d59ecddcb8492e2c529b5d11f0f
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
-Build-Ids: 47dbf5c5ba963f2fbcc3735e790fc4b6f4e74ace 7ebbb8076228537158cc88722e160178105bc5f2 9618f24a41b1869debeec9561b075ab3a89a8ad8 b7e1e436d21b11a004ceef4c62d6d47d63456fc3 b9e5dfa4c405dbcdd4e38e075ecb50cb49993a53
+Build-Ids: 43cc697868f08a51a6013202bd7bdd06500c0f6f 62e185c8317c91111ec15068bb2419a3c0f9e3c4 79a91ce74b16b4e795412b09b959fe3113e25d31 8dc42b448a0f6d15e01e7b33d99ff89c90d7d161 b6add4bf729789d06afc4f043933cb0f309863bd
 

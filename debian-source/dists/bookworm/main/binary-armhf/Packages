@@ -1,17 +1,17 @@
 Package: et
 Priority: optional
 Section: universe/net
-Installed-Size: 4026
+Installed-Size: 4018
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armhf
-Version: 6.1.8-bookworm1
-Depends: libc6 (>= 2.28), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.5), libprotobuf-lite23 (>= 3.12.4), libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libprotobuf-dev, libsodium-dev, libtinfo5, libutempter-dev, libcurl4-openssl-dev, libssl-dev, libunwind-dev
-Filename: pool/main/e/et/et_6.1.8-bookworm1_armhf.deb
-Size: 867132
-MD5sum: 18502d63327c448859cbdf82ce316f5c
-SHA1: b94fe926950bb195cbfa4b81753d42fd42ef900a
-SHA256: a2bafaf8c942e3ba2b86895d51c5786f6b9509054d7c467df388c23daf496486
-SHA512: a49aa2d51b64a93180b56e02322bebdcab55b7ccdafc6d414ff9046ed614dd51a1603eda4ebef5066ec043ae75d2d4235b89fda06013ee813d94d8b65a64f377
+Version: 6.1.9-bookworm1
+Depends: libc6 (>= 2.32), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.5), libprotobuf-lite23 (>= 3.12.4), libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 11), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libprotobuf-dev, libsodium-dev, libtinfo5, libutempter-dev, libcurl4-openssl-dev, libssl-dev, libunwind-dev
+Filename: pool/main/e/et/et_6.1.9-bookworm1_armhf.deb
+Size: 864472
+MD5sum: 4c9502f07176332e28b0ee37394ff6c3
+SHA1: b967413d27327420cc16db7e768ca1e5bfd3c55c
+SHA256: 7c3ec81306bb45b4a411493644d7648d3ebf4acfc016cc565e38b4f51a959791
+SHA512: 3964357ffbafe3e5b6358f9c2f42a1cb3bbdb905a7d4c051b5d9e9a1f5c55e0e42cd4581abcdf77b6fa051d581cd0a4b663ea1615325aa5aa0c851906a141d66
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -19,19 +19,19 @@ Homepage: https://mistertea.github.io/EternalTCP/
 Package: et-dbgsym
 Priority: optional
 Section: universe/debug
-Installed-Size: 77352
+Installed-Size: 76068
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armhf
 Source: et
-Version: 6.1.8-bookworm1
-Depends: et (= 6.1.8-bookworm1)
-Filename: pool/main/e/et/et-dbgsym_6.1.8-bookworm1_armhf.deb
-Size: 77148728
-MD5sum: 198d481531d9dea7bdbeb3eb45dd05d6
-SHA1: c29da88a8441e76e203aabbc142dee007c2b9151
-SHA256: 8db1f4ee0a321ccef0cd2f01f020fdec0ca241e63a7d6138a8bc714c113ee25b
-SHA512: 8833bec067c3d9924fa2dcc8360b66c965071b6dd0382a7df7ed505e9e2a96060f0fe539affde363a01a921da7415f9d23b1f18ec7951849844704ca3a4b0699
+Version: 6.1.9-bookworm1
+Depends: et (= 6.1.9-bookworm1)
+Filename: pool/main/e/et/et-dbgsym_6.1.9-bookworm1_armhf.deb
+Size: 76088880
+MD5sum: 8e75224cca386dd8d1f2086162850e5f
+SHA1: 404a7e4ed87d488789105b685818975fd45678fa
+SHA256: cf47e5db96235ee1307c42b65f3562b2e536a28be66fe778aeccb0bc3da45fb4
+SHA512: 20ffb9079ee6dcb56997e9446d63da40f3a782dc3d256c72747f386eca67cc72c4d20cfc97d3e49ef2b5b5be704061a9192ac938f68cdec8e85f275eb25fcdd5
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
-Build-Ids: 1c529c240740213bbc662c6cd7551c3d147c5472 45232c65ed5f79c3e2226f3ba004417c3edf3fb5 52cad713345ccd702294269ec43f3d68baa5b461 64ae39b4fdf66f722e0e25522b2fd25df0fa0995 d477d9e3a2a4118e870f0b97906063dae17082e5
+Build-Ids: 084273f9f6dc14ee20d31ca076a260b1d657b203 286ba9596262271b7d6115cfc74005b92deee621 575ee6644210634a4cbebf82264e9f54270d92d8 8fcfbb5b4934c1e48f2bc44f25e3ddbe10b269b0 c53c1b111e57f1567c075eec1e60a7cc7cf7e533
 

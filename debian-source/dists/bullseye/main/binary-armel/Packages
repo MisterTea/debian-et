@@ -1,17 +1,17 @@
 Package: et
 Priority: optional
 Section: universe/net
-Installed-Size: 5270
+Installed-Size: 5282
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armel
-Version: 6.1.8-bullseye1
+Version: 6.1.9-bullseye1
 Depends: libc6 (>= 2.28), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.5), libprotobuf-lite23 (>= 3.12.4), libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 10.2), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libprotobuf-dev, libsodium-dev, libtinfo5, libutempter-dev, libcurl4-openssl-dev, libssl-dev, libunwind-dev
-Filename: pool/main/e/et/et_6.1.8-bullseye1_armel.deb
-Size: 835008
-MD5sum: 5c79874c83135c78af390d7e8177a9fc
-SHA1: f13eb0526bc9f00533e5743eb19988f57c422fa4
-SHA256: f42dc1390d36b0d53ede799fca247bd6f07c5f8f7011e9f22c1d4ecff450a2da
-SHA512: 608cb6e4d179edd7c4bdf2b2d0a7bf552aa78b73dedc0b6e89005f254b6135b04f2220bc29b12f5941be4468f934d6ad947dbf3985eb56324a290d59baea21f1
+Filename: pool/main/e/et/et_6.1.9-bullseye1_armel.deb
+Size: 835948
+MD5sum: e4dc689b780fad2428a37308dd17bf58
+SHA1: 60ec1d24d5abcdf2330cf78d502ef4c47127d615
+SHA256: a25f6c88219ff6592091bffedfd0d071208b656bb450538924effbce888a2d2b
+SHA512: 749f6e26ad65bcab7163d503d921a85850dbc658d7d250174d96201ff339c4cf1ded2adbfe9f7d7fa15e44fd7ed5edb4fc9bd9daf96cf2ebdf053776f48971e7
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -19,19 +19,19 @@ Homepage: https://mistertea.github.io/EternalTCP/
 Package: et-dbgsym
 Priority: optional
 Section: universe/debug
-Installed-Size: 77321
+Installed-Size: 77237
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armel
 Source: et
-Version: 6.1.8-bullseye1
-Depends: et (= 6.1.8-bullseye1)
-Filename: pool/main/e/et/et-dbgsym_6.1.8-bullseye1_armel.deb
-Size: 77077576
-MD5sum: 0bc2e8fe3da97f369dc0524cf9821d05
-SHA1: de0bfcf339f850e5664b1b72044de9ccb2fb8f55
-SHA256: 629ec551b1bc7cd1e03cbea0bb2e9fa02c4f9dd2974c010636199f05048c2cc4
-SHA512: 5b14980a8417efdd55a52ecf0b5c2432ed4f530ee4d5e98525712f47e47a0d813d54943f084689ae80e4f9451283fab0a41e7e83a5ec1bee43ef0e036da58102
+Version: 6.1.9-bullseye1
+Depends: et (= 6.1.9-bullseye1)
+Filename: pool/main/e/et/et-dbgsym_6.1.9-bullseye1_armel.deb
+Size: 76974744
+MD5sum: 0bb07a49220a467a2863e57b726f772f
+SHA1: 6e7eff5131e8eac8eccd295f4ff69f4fec208e49
+SHA256: 0ac3a5f013a5f0dcb2084e20aa167017941c861011ab6d408cc0a21938e32f93
+SHA512: 8b7ef837cf7e8fb1522be468a85dc665dd69ffe2cb4eecc3f433e506c951875721aba94d91d39eb5bd4cd4a7ddb714f880ac1e7d81bf5d931baa03087875c803
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
-Build-Ids: 3d40e7bc411bd9f4128275b582de654e8be66800 5cf150ca69adf495b446f8c5c165db439c3f3ef5 96831e1876a27d16980a8ce07e0f399f1a7df3e1 9a15d3ec90209ce5b2fa83b01738389b1af7424e fd3fb0ef3539673c87efeeeae1f0a3c659dc2c36
+Build-Ids: 1a9693923c236b75b7a61807a666d223b7ebc369 85a9e953863b73645b63dfd33abe26046e97f0ae 9976b4b8a5d246c455cf4c314ab9654f4b0510d2 db822cd308581ccabee12242cd29f74bc7124f6c e711efa51eb0ecf02c3a2ff6045c3b744700371d
 

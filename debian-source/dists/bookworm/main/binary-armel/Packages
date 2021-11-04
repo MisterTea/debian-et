@@ -1,17 +1,17 @@
 Package: et
 Priority: optional
 Section: universe/net
-Installed-Size: 5270
+Installed-Size: 5234
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armel
-Version: 6.1.8-bookworm1
-Depends: libc6 (>= 2.28), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.5), libprotobuf-lite23 (>= 3.12.4), libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 10.2), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libprotobuf-dev, libsodium-dev, libtinfo5, libutempter-dev, libcurl4-openssl-dev, libssl-dev, libunwind-dev
-Filename: pool/main/e/et/et_6.1.8-bookworm1_armel.deb
-Size: 835112
-MD5sum: ace9bc34d76eaf1e8c4261878c584598
-SHA1: f99f59a0ede9a0167adf7567f79f6406e8426f88
-SHA256: 8b90a9a4d794053fbbc2caa25b3ed8121744f395994d1b69ac5694bf9be08d99
-SHA512: 3a6190ddd1acf701f4895e43bfc4fcf5a432bcd0f55ede3a86e0e3b19c200fee603d429f2ea5f42e9f1d57af6a229a04658a7c4aafe809f98d8fc8ca8992d2eb
+Version: 6.1.9-bookworm1
+Depends: libc6 (>= 2.32), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.5), libprotobuf-lite23 (>= 3.12.4), libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 11), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libprotobuf-dev, libsodium-dev, libtinfo5, libutempter-dev, libcurl4-openssl-dev, libssl-dev, libunwind-dev
+Filename: pool/main/e/et/et_6.1.9-bookworm1_armel.deb
+Size: 833412
+MD5sum: 2a7c26b00adb59a19104da81fb49a45c
+SHA1: d6e2efd326fb4389c42d2eb81765b511881a398a
+SHA256: 397aecf3fbeeeea47b38345012f47902a2b5d077158f946a79af2ed02a62d88f
+SHA512: a1efb7f316695b821de1271a7e5ae09538ae177ff3c86c2cebd5533994b259799915d0244e92d198d0481bd13e06b9dcc88fc9734b3eb0b29726b3e09565df1d
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -19,19 +19,19 @@ Homepage: https://mistertea.github.io/EternalTCP/
 Package: et-dbgsym
 Priority: optional
 Section: universe/debug
-Installed-Size: 77357
+Installed-Size: 76059
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armel
 Source: et
-Version: 6.1.8-bookworm1
-Depends: et (= 6.1.8-bookworm1)
-Filename: pool/main/e/et/et-dbgsym_6.1.8-bookworm1_armel.deb
-Size: 77129552
-MD5sum: 2f3874e94096406f8f4a91c8a3c37ffa
-SHA1: 22eb4d49e1b3ef3df62922d137de96d6f1639820
-SHA256: 1f163822dc877f8bc3a7ab71455463531780ff1a9dca0bd2b77b33dab37d27a2
-SHA512: f4d82ba9dcb6d3b4d7179dd4364b2338f25efba146e89a2c700f7faf73bbcc5fd952d3c66387942a65b200d7c606cc7b91adea243bc419d295dc311cfa65bdf2
+Version: 6.1.9-bookworm1
+Depends: et (= 6.1.9-bookworm1)
+Filename: pool/main/e/et/et-dbgsym_6.1.9-bookworm1_armel.deb
+Size: 76075864
+MD5sum: e26a14b149f4f81c612fb415a32e1dee
+SHA1: c9f0c86820f37d2eb2a3632e62471b84235011fe
+SHA256: 40bd612a3417c417c5781af4c455fa884d6c6f37c2286a3c2934fad809849116
+SHA512: c1acf3cc0417c0a99798d2b7af98c489059ac9c54876508e0c1e479ec8e5c9261eb12db16b3b79a97aac81b022d71f164a6f9284a77735d1813838b838e804fe
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
-Build-Ids: 0c0ffd4a9830979029f7b327d5c6934a9ada4b6e 3c6eeabf3da683e7561a52d618cef540c8a2b22c 69c03fa6f8d481c8b251d7e4db05b2917602d7d0 756c74756c9e8e11cdf5ce1ca68f5f8f09226547 9718e7c1c920b78cafa75a7d387da5d6932f01d0
+Build-Ids: 91e335e2040a8de97907f3c4b74f37cbab46474b 9b9cbadfc26e161fafcd0e564b570ac931a830df 9db08a25ae717668b184f52b7ced86f86132189b c9e127d838f8f6751a21e264b5b3c7affac7e881 dced53dbac89510e9971d93055dff899fad3926a
 

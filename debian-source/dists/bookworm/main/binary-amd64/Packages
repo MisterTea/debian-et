@@ -1,17 +1,17 @@
 Package: et
 Priority: optional
 Section: universe/net
-Installed-Size: 7713
+Installed-Size: 7645
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: amd64
-Version: 6.1.8-bookworm1
-Depends: libc6 (>= 2.17), libcurl4 (>= 7.16.2), libprotobuf-lite23 (>= 3.12.4), libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libprotobuf-dev, libsodium-dev, libtinfo5, libutempter-dev, libcurl4-openssl-dev, libssl-dev, libunwind-dev
-Filename: pool/main/e/et/et_6.1.8-bookworm1_amd64.deb
-Size: 1167304
-MD5sum: f656d8d7681105c1d9344c9280568186
-SHA1: ac20516d4cec4b4ee2a4a8a51546c0e15dd125c2
-SHA256: d8c73e4d58b20325d6297a086fc55807de2623eb1b4b6e47dd9041e991cc71a4
-SHA512: 2ce3d01c64602ad8e1b70a8f9034e884e7cacce002a2483e1d3cbb67790d594c16d57c4f1d66111c5b77b9e78b7f9c26c1516d48e8b78317d36d9ee34263aa70
+Version: 6.1.9-bookworm1
+Depends: libc6 (>= 2.17), libcurl4 (>= 7.16.2), libprotobuf-lite23 (>= 3.12.4), libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 11), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libprotobuf-dev, libsodium-dev, libtinfo5, libutempter-dev, libcurl4-openssl-dev, libssl-dev, libunwind-dev
+Filename: pool/main/e/et/et_6.1.9-bookworm1_amd64.deb
+Size: 1154196
+MD5sum: a34db191386b1beb85750c5341db3a0a
+SHA1: 7fe245ce022d463c308d51d97ab2753dc275e606
+SHA256: 8ff67a5415ee438f6730ab000b4638d4975a3e68c48d4cae9b9bdf15d2ce7223
+SHA512: 1c0528ce8562af6036f7d7479582ff962f634534c62e98cc7640724ea3bdd13cc3c04d42af7b14dfe09cf59b3bd14fa85c54b3c4d741575f0cdaef91540e32bd
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -19,19 +19,19 @@ Homepage: https://mistertea.github.io/EternalTCP/
 Package: et-dbgsym
 Priority: optional
 Section: universe/debug
-Installed-Size: 135056
+Installed-Size: 132232
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: amd64
 Source: et
-Version: 6.1.8-bookworm1
-Depends: et (= 6.1.8-bookworm1)
-Filename: pool/main/e/et/et-dbgsym_6.1.8-bookworm1_amd64.deb
-Size: 134721604
-MD5sum: 63eb4d62b9ef5326e5ae8a6aa14ffbf6
-SHA1: 86bcab08ed095c20a866670ef6184487f5cd527f
-SHA256: 0d7b044c5e2a7a865df150b1f6e35a0456c56ea0d6ae0df42e2d0a7488d5195f
-SHA512: b1d7da6740db0ad33aefa987867ea6c34b66696f5e5f833d4941b58060d27eaea5db4ff545b42bb57ff045c2d2a597d19733f00d74149ed64f537b8c66fa5e08
+Version: 6.1.9-bookworm1
+Depends: et (= 6.1.9-bookworm1)
+Filename: pool/main/e/et/et-dbgsym_6.1.9-bookworm1_amd64.deb
+Size: 132851600
+MD5sum: 34ef200c45bf0faf56f69f710a556d99
+SHA1: a8c829964f11da172fd58fab82759a59b6c54019
+SHA256: 60d4c983ac069862ac11a8d17b207f67b021dafefa209b96ff677738bec71646
+SHA512: ebaaf057ffa67e17294a9ea9cc1f32fe91c860f639e8a2045adb6a58c200588b8e17a1aec7d03416e8c761b638dc0eb7bce09846583b2b33175f172bae6dfaa1
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
-Build-Ids: 373bd9535f02a4c7bd74013791ad192c9dfa6fac 5aa5fe96c940135a2b60ea970d5ac7063701a491 6adeb9c1121a78d42f930adbdd463dd0085a4e9a aca1ebfb7c0731135326dfd16952b2e99f28fc58 de3f057cfabcb93c419b560897bc66924482eabc
+Build-Ids: 0e8ac09c4ee332f50e048013691c0b9e97ee46f3 5a579b083a0f43e1013366458c745999d5b78a4f 6838b91c8de7f4db6144fd9ae2213b13a9cbd981 79ca5bba9bd1da4cc8ca46c61104090ec6d52894 99f38841add34a86348d0105ef52fea30f0b9998
 
