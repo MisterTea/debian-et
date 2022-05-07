@@ -1,17 +1,17 @@
 Package: et
 Priority: optional
 Section: universe/net
-Installed-Size: 7321
+Installed-Size: 7453
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: arm64
-Version: 6.1.9-bullseye1
-Depends: libc6 (>= 2.17), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libprotobuf-lite23 (>= 3.12.4), libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libprotobuf-dev, libsodium-dev, libtinfo5, libutempter-dev, libcurl4-openssl-dev, libssl-dev, libunwind-dev
-Filename: pool/main/e/et/et_6.1.9-bullseye1_arm64.deb
-Size: 1053364
-MD5sum: 3fa0a7df46170332107842dbb7d9ed6f
-SHA1: 1257218272c959584758cbc500dfb28c409a7498
-SHA256: 8da227d8bbba7458bccaee5bf507f34ddd52a68ec8821c7b5c7f6c64cca190b5
-SHA512: 44c245599c00dc6e4d4a61c7c5797a8bdfa456f4735f64b868fa3693e11156532ae70f464166055723ff9fcaf43f869c483733e4a91851153b47deb493a2f6bd
+Version: 6.2.1-bullseye1
+Depends: libc6 (>= 2.17), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libprotobuf-lite23 (>= 3.12.4), libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libtinfo5
+Filename: pool/main/e/et/et_6.2.1-bullseye1_arm64.deb
+Size: 1078164
+MD5sum: c612129c0094c25e34bbc98478fe9973
+SHA1: 568a8281b68311758ed65c9d316351ef24352bb8
+SHA256: 873e77512a3fb6723332bcc74398bf8e18cb279fde4a2201e55ea05f32bac461
+SHA512: 1f0e52e55c3ff662f9eb4c9fd105b03f9e464b095c0fd3243cbe562286642e1b0aa358c0614bdeeb78c24dc58e3ccb5e0c462441e146cd1f019e1c99bc635f8f
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -19,19 +19,19 @@ Homepage: https://mistertea.github.io/EternalTCP/
 Package: et-dbgsym
 Priority: optional
 Section: universe/debug
-Installed-Size: 132725
+Installed-Size: 134951
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: arm64
 Source: et
-Version: 6.1.9-bullseye1
-Depends: et (= 6.1.9-bullseye1)
-Filename: pool/main/e/et/et-dbgsym_6.1.9-bullseye1_arm64.deb
-Size: 132248480
-MD5sum: 2e2ee29c8f9040c45151cec2e30be0de
-SHA1: cb4d959d14f4b77863d264b8e43e07d113caf77d
-SHA256: 9fd06994490b860e97551adfb11bed9ace82d32d67061088bb9c0608d8c56dd2
-SHA512: b0f2cbeac278afa9394e316290297b15beb62812391864cc0bfc4318f72c40500724b26d9309361657b51fb6a0ad8986b8c5809d6d501d2f6bc730aa114c3e53
+Version: 6.2.1-bullseye1
+Depends: et (= 6.2.1-bullseye1)
+Filename: pool/main/e/et/et-dbgsym_6.2.1-bullseye1_arm64.deb
+Size: 134585360
+MD5sum: 36a9cf78efc917a56834b7bd7620ba23
+SHA1: 1e480294bc815f6644f935d7efcdd0c1033a7c94
+SHA256: b28582d895b38fa12a8a36c693306e94dbd57e1b3c93a6099be633aa73afa8da
+SHA512: 7cdd32b352859a568a694334f2880bd19bb17973e6790c26d2a753b0248a8f0e6b9279941f763a7f2f4fd9b7bf3441a3f2e25a091ef51dd480552079f9d876b8
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
-Build-Ids: 3587fd0bd89b9ff13fd2042bed330208ea60dbae 84f5c511c3fac40e9cd18ca872ad28e958a3e213 8f47e5847ea4e19311bdcbf8c03e234e8362f00f c633c8e72b0ab01365ad2a745862b35633671ccc e672e2186e43a15b397f7547934cd8ded9e3ad1d
+Build-Ids: 347475f96b3175b74d4ca3e78c0e43202818c013 3bb8e86065166cade45c9612ad57beb5b6d43c03 657515526d28d69982c47306c80a77bd86c57639 9af170be096f596065aac5ac411c50e092c89789 d27bd980612693194889b6f02770782978471246
 
