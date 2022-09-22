@@ -4,14 +4,14 @@ Section: universe/net
 Installed-Size: 7849
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: amd64
-Version: 6.2.1-bullseye1
+Version: 6.2.1-bullseye2
 Depends: libc6 (>= 2.17), libcurl4 (>= 7.16.2), libprotobuf-lite23 (>= 3.12.4), libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libtinfo5
-Filename: pool/main/e/et/et_6.2.1-bullseye1_amd64.deb
-Size: 1191580
-MD5sum: f1bc9cb7b269fa7d739dc3a44a426514
-SHA1: 7cf852a90543f24d54644dcfb58a720d6c0a6f20
-SHA256: 714a6e22d3f279aca1914ae371caf1c3e7ebb750dc4ace83e5b962b0394e5be2
-SHA512: 65c65885930a8572510559ec9a403870d0d291dd3287d946955dc88370a0c5f97fac55541f5b0c4212517240fc3177a5c0df5c59c256d050043e0b164de7764d
+Filename: pool/main/e/et/et_6.2.1-bullseye2_amd64.deb
+Size: 1192352
+MD5sum: e6c1cc1f293af43f9c205ad2f7c93caf
+SHA1: 1286db78605605fe6cb299cde748fe96403bee0b
+SHA256: cf413aa7cb09e7bd6cf8a55a962ee21c2fc310cdf11509d16c7894dfc3750ac1
+SHA512: 8e9bd937db10ffc50e8b1cf12df5a465b02b269d5bd0b5f934a819a68868d1e27fcec59924d38dad92bd4b7f751678582c3cfa2bc517fd6a1f542228f06b8383
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -23,14 +23,14 @@ Installed-Size: 136836
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: amd64
 Source: et
-Version: 6.2.1-bullseye1
-Depends: et (= 6.2.1-bullseye1)
-Filename: pool/main/e/et/et-dbgsym_6.2.1-bullseye1_amd64.deb
-Size: 136549780
-MD5sum: 9470ca0bc475e91119df91efa780fa37
-SHA1: b31f6e0c6a9bc2c92ef8565634ab7e9d1577d9b5
-SHA256: f4c082fe1af4a6aac95f8861ef0f8ad8a9a0785cf83724358590199be1753d26
-SHA512: ddcfcc52e4f8afc299ee633caf4349be4b73b0ca6a2a40e2cc99e49bcee96d0b2511048b71a9c38b7fce208a4b145d54545c2f2be4748c53a6166b7df3f5d697
+Version: 6.2.1-bullseye2
+Depends: et (= 6.2.1-bullseye2)
+Filename: pool/main/e/et/et-dbgsym_6.2.1-bullseye2_amd64.deb
+Size: 136549816
+MD5sum: e40418ffa22bd34738fce16adafff942
+SHA1: da4b86d31412d6c044942fa70dc74b6d1d078cbe
+SHA256: 4bc0716c8e24a918d516c1b0b90d78e756dc6ed74f6a1464921b57632cde2c0e
+SHA512: fcb0671ecdf42c47d44b988ba1dfba13040f69d14b27b7a080d4479fc8afd77a45d3ad3a6f4f255f803512a304e804c1b747a56c831694f23d9876cb7c1ebc86
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
 Build-Ids: 0382ef9454a91f16e7c0a636b7886bc5fd861deb 4f7661abc7782c27e5b223ecd1ed7fb30e4203d9 547a4de9f308f037247ada60da5aa83f49481e4e 8cd73634cfdb94b07769baf8e7187fca457d8c52 dee4997c64309c177829e3ea9736aaa77d1dbaec

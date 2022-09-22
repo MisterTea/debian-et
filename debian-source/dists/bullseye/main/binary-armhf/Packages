@@ -4,14 +4,14 @@ Section: universe/net
 Installed-Size: 4106
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armhf
-Version: 6.2.1-bullseye1
+Version: 6.2.1-bullseye2
 Depends: libc6 (>= 2.28), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.5), libprotobuf-lite23 (>= 3.12.4), libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libtinfo5
-Filename: pool/main/e/et/et_6.2.1-bullseye1_armhf.deb
-Size: 887368
-MD5sum: ca2c3dab7c665daf6cae8c519962f70f
-SHA1: 43bee7bb6cfbdace295159aace65623591bf9f4f
-SHA256: 8f60d36a7f8f7458dfef092ee79b51f4b4d8b7fcab0c9e2b4f6a7a240d46ba3a
-SHA512: dde93f28c7d5db9db9a1890e18a4d89e9f4a2c7af01a8c519718f966d62fe6c0b15f90fb0dceaabc289ca0f613315d1ebe46083206985ca3f730b02061303384
+Filename: pool/main/e/et/et_6.2.1-bullseye2_armhf.deb
+Size: 887100
+MD5sum: 4ffc73894a762663e90095a250a4533a
+SHA1: 7defc6c6fff600ac29a663f8903755671a652acc
+SHA256: ff983eb5bed3ba4ad97c81972f05d6b420858c2c8701da6cb637c8305fc3916e
+SHA512: a91fb43555181752af83781c5a701ed1e904771a7f624e599a8b9fca198710393aa31b4228b65a1f573b6c1b163d647808d5e2948bb62c88daba13ac7baeef87
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -23,14 +23,14 @@ Installed-Size: 77693
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armhf
 Source: et
-Version: 6.2.1-bullseye1
-Depends: et (= 6.2.1-bullseye1)
-Filename: pool/main/e/et/et-dbgsym_6.2.1-bullseye1_armhf.deb
-Size: 77481468
-MD5sum: 3d78bf78b5e50be8cb41af1e7e52047a
-SHA1: f68766a3c3eb5343a7593b94ae4096f9ad1cd0f3
-SHA256: 27ee9dfa1094a319c53c4496f4198d9dee8bf76278f9dfc2f5d289d2daeacf8c
-SHA512: 29f524f63465f954822885c80d3841622b8d1c1102c6b3fae35ef7666e6f089235ffcf1a0a99052c6d0ed7655b61ec01b6c1b027350d862fb8824e509f60ffed
+Version: 6.2.1-bullseye2
+Depends: et (= 6.2.1-bullseye2)
+Filename: pool/main/e/et/et-dbgsym_6.2.1-bullseye2_armhf.deb
+Size: 77481460
+MD5sum: e91318a11a0c1268676c38344aaab376
+SHA1: 8e8cb307a48ed98c6e5c52b742b4475f99e1b7ea
+SHA256: 187e4844481c8b251515db734ff2141a55bec3485b2ca154a809d6d377c363c6
+SHA512: 3ebadd88bc0bfd1805e2c335baa15f558a21ee55b21f9a24fd12f99d1d2d4b207ef3b49fcfdb00d4732bb7a214e87c4251e01fb92ff67a481e2c70ca4cba88d3
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
 Build-Ids: 4bdc4d6978073913ee401411d60e31888f1dfb92 546f86db8a0b0309094f7719e03a828ca401e2e7 59bb92bcb1a1e497f08c865152ca5c8eff9dc1f7 705cb33dd24fb0ae6f5f9379ae1722fcb9ad46f3 e23da2139b134be93f5f04e9973504b806aaec54

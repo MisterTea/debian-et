@@ -4,14 +4,14 @@ Section: universe/net
 Installed-Size: 4275
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armhf
-Version: 6.2.1-buster1
+Version: 6.2.1-buster2
 Depends: libatomic1 (>= 4.8), libc6 (>= 2.28), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.5), libprotobuf-lite17, libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 7), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libtinfo5
-Filename: pool/main/e/et/et_6.2.1-buster1_armhf.deb
-Size: 909144
-MD5sum: e2237aa16b906c38d2f5293b0a1f7da6
-SHA1: f8cb9aa98afc2c28e39c68ddd086f6d87ddede43
-SHA256: 091f6a47455ba577a6ce39725d9f3d0bee035b6e0d069f3cc5fee4aac813528f
-SHA512: 661dd3fe34ed710531dc5cd8d6bdb71de5bbd58734733222fed03afe67b84aa48b68c32f34add99c9cbbf7a77c671cf135f065892388ae8e18cb33b984844a51
+Filename: pool/main/e/et/et_6.2.1-buster2_armhf.deb
+Size: 908644
+MD5sum: e959133999547a12f5bb758828b74cee
+SHA1: d08a82b51f4a1462c9532975b92f4c083a9e0a22
+SHA256: cb84bcb767d167d1a57fecc183c5a67fba21eab705677047a7ade6bff1513f5e
+SHA512: 24d9edbcb843fea33b1836555b44a9f1806929f75d01840d1a24ac169c30ddd6fb4aef4625419469b9d44a8ab8e18b4aa014c65ced635842f5b12261caa5ad2d
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -23,14 +23,14 @@ Installed-Size: 79026
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armhf
 Source: et
-Version: 6.2.1-buster1
-Depends: et (= 6.2.1-buster1)
-Filename: pool/main/e/et/et-dbgsym_6.2.1-buster1_armhf.deb
-Size: 78361776
-MD5sum: 12c4ffd118341036b49f7afaec24cbb6
-SHA1: 938c4f8dfbcb1f1eb53e825c42a9a4d7c96011aa
-SHA256: c09eab9e67e54e22cc47752117461d65d5ae1b793770f621e9d631289a64fa4e
-SHA512: cb6b53376917316f08ec96500fa806cca1b98a6597502968e1d70ef0fcc6c96267e9bf224709b9bff3067cbd10215b2411683ff26a2a3945cb12ddd0b32da0c5
+Version: 6.2.1-buster2
+Depends: et (= 6.2.1-buster2)
+Filename: pool/main/e/et/et-dbgsym_6.2.1-buster2_armhf.deb
+Size: 78361572
+MD5sum: 7863004d6035ee34feca368df286e5d1
+SHA1: 46588393a9f8737a9dc13e7e62211ff49ccf5717
+SHA256: bcb9d7b85eab1d6dff645cbd274ecfe1218dfd98e6eeeb8280f39047e15c1686
+SHA512: 78ca66551766a9a7d65f539cec22d53eaa98dc74db3e70ac91b1e7cfd2ae56aaed80a728f286067f3fe7002e689725592ec1defc1d605e37f730f00aadf9f057
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
 Build-Ids: 269ee1bc954f36b271f1a8368bfee0685b3efa0c 591c9b3aebd7fcca7f8ae23fd402c227f84e916f a8dce7e4e6002e7a7cd6eb3297ef0ce5ad500d12 cd680cba1576462025ba5b89daecee09c159c873 f984b80881872e702675cdbbb2bdb257daaa5eba
