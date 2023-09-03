@@ -1,17 +1,17 @@
 Package: et
 Priority: optional
 Section: universe/net
-Installed-Size: 4134
+Installed-Size: 4478
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armhf
-Version: 6.2.4-bookworm1
-Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.5), libprotobuf-lite32 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3 (>= 3.0.0), libstdc++6 (>= 12), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libtinfo5
-Filename: pool/main/e/et/et_6.2.4-bookworm1_armhf.deb
-Size: 883328
-MD5sum: 69c8c06166304938b9e746c6762b8ec3
-SHA1: 829e2a98bdd8230877466cc4d9a964841456c833
-SHA256: 1375e99e98b1551aab7a8e33a3129de3c6d7f8a64e97abf95d5906789b5f2235
-SHA512: 50237585ecc30eb152108e7430afc0b54949213edae0c54736cbdd9e681103c1e1e500bdf572f501a3abada103e8595b54ae9dcfd1346aabd1cdfec400bc6ee8
+Version: 6.2.8-bookworm1
+Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.5), libprotobuf32 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3 (>= 3.0.0), libstdc++6 (>= 12), libunwind8, libutempter0 (>= 1.1.5), libgcc1 (>= 1:3.3), libtinfo5
+Filename: pool/main/e/et/et_6.2.8-bookworm1_armhf.deb
+Size: 947432
+MD5sum: 971ee93435d844e12a4a09f9c31aab5e
+SHA1: ca0bd2de032f58fd6d8f83f22bbbc22d853260f1
+SHA256: fbb0eb18459aca21c5920761e902d9e772725e6553b4d8ebd9592d7a54e14cb5
+SHA512: e2ee1bcf879626da80755e017eef3d88fb152fe0ca4992a32af566ec55f68ae88bae511cc0c7006dda803b7dcb30445e8a443ca51ad92a59229e7a16c3467511
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -19,19 +19,19 @@ Homepage: https://mistertea.github.io/EternalTCP/
 Package: et-dbgsym
 Priority: optional
 Section: universe/debug
-Installed-Size: 76269
+Installed-Size: 76929
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: armhf
 Source: et
-Version: 6.2.4-bookworm1
-Depends: et (= 6.2.4-bookworm1)
-Filename: pool/main/e/et/et-dbgsym_6.2.4-bookworm1_armhf.deb
-Size: 76188580
-MD5sum: 03f3582207ddf5583e937c982eb045dc
-SHA1: 12d449ad15f4c9c8d460fe32cfe0f7273c1b2292
-SHA256: 8eee1c3134a89fdbfc25fda9703edef03197c6de894bed89cd190fb334287809
-SHA512: 3d9cef53cfeaea93e49e4513c397053a79ecb6a303006eaead40fb3f8576e12ca85a161d021c8dad9200923adf30a7a21ba055311feb0b6744c449bc21807af0
+Version: 6.2.8-bookworm1
+Depends: et (= 6.2.8-bookworm1)
+Filename: pool/main/e/et/et-dbgsym_6.2.8-bookworm1_armhf.deb
+Size: 76838944
+MD5sum: a89068fccd75c30fca8887ff7e4af846
+SHA1: 79b90b3d5f9ea8db57481e055b04d3847494d739
+SHA256: b39730311d303b1195d2aced9c5b2bd6f1f09a02d790d2c029078ec5febc6c78
+SHA512: 135207ee4f1fcb8b727f887832daa2f40a9b59a371c2d2ccbf894b074d24cabcee77e3bd305521daaf000d9b9ac5cc3ec90e2d2a241f71e57cdb59be3e008623
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
-Build-Ids: 2dc79166a00b6d8f36ba4b3c941fe770f6a54533 41bdbd5ba40e6d3739874f1d0d82fe2e8ea6bc96 46ec53359d8f9513409e045333d7e5335f07d683 bc67fadf0e7a9457d9d073d70a42b35e3967c33c f6ed19d2f06b89ce4bdc3ef9638cf1d0dbbcc4b2
+Build-Ids: 0451cc29fad00f0f41aadcbba0b348b958dfe66f 1952ec50c3c431e2c9af321afe5f8d9688c69dac 982aa2188d3efb60c358776f146f662d400d0955 9df6ea925762f1b6f8ba23996ffc7d8b54a1c2ed ce23d6a9494fadb00f855830ff3b99155aa268ac
 

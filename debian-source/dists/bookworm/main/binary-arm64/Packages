@@ -1,17 +1,17 @@
 Package: et
 Priority: optional
 Section: universe/net
-Installed-Size: 7677
+Installed-Size: 8025
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: arm64
-Version: 6.2.4-bookworm1
-Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libprotobuf-lite32 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3 (>= 3.0.0), libstdc++6 (>= 12), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libtinfo5
-Filename: pool/main/e/et/et_6.2.4-bookworm1_arm64.deb
-Size: 1058120
-MD5sum: 8ab175631882179404a075aed01dcc31
-SHA1: 16aa315d9eb599e7f83534715b3a46f4977f023d
-SHA256: d6a4e118461be951f142b419a03f3b209411924b45acd1585301a81ca97b923c
-SHA512: a0fb38dbff1434bcf8c1325e68c661b78e273653b5ee6eeece5aa14e755097830759d81ff6eb9a62460239285ee547a6821131d8f3261ab2295b4c0f268f2be7
+Version: 6.2.8-bookworm1
+Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libprotobuf32 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3 (>= 3.0.0), libstdc++6 (>= 12), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libtinfo5
+Filename: pool/main/e/et/et_6.2.8-bookworm1_arm64.deb
+Size: 1131012
+MD5sum: d3e562428d758a5fe3bafc6eaf241426
+SHA1: 7b5157ac398a4456d178e32e7d1fe7bd66a01b1c
+SHA256: f923a55268b5618684e5482db893d5d4789b6408bc10accdfc687b8c3b47ff28
+SHA512: e494c299701656673350a5f5b7d0beb28795287a232a40d124671f4b3229958dd08138a88043182c988a8212de6a7f44dff588ffe42dd204649f9500aa024a1d
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -19,19 +19,19 @@ Homepage: https://mistertea.github.io/EternalTCP/
 Package: et-dbgsym
 Priority: optional
 Section: universe/debug
-Installed-Size: 128437
+Installed-Size: 131410
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: arm64
 Source: et
-Version: 6.2.4-bookworm1
-Depends: et (= 6.2.4-bookworm1)
-Filename: pool/main/e/et/et-dbgsym_6.2.4-bookworm1_arm64.deb
-Size: 128882380
-MD5sum: 973bc92c2d065bee623f9036091bb1bd
-SHA1: 399fa0bc506195ab4eab85ff8034b516505a3c4b
-SHA256: f1867864812c998989921da4fd443d3312451085ad55ef608371909e1ad20f9d
-SHA512: 1fc9686c3099e41c66be79db98adc1adc4cc5e3be3d39d9fd465bf7ea67050abe8cd3dd53cb8225aa2b65cc6bcc6a1c1339929bc35012583976491678f3715d1
+Version: 6.2.8-bookworm1
+Depends: et (= 6.2.8-bookworm1)
+Filename: pool/main/e/et/et-dbgsym_6.2.8-bookworm1_arm64.deb
+Size: 131790156
+MD5sum: 1b3308da765e375f204ae6be72323594
+SHA1: d000dfb5a0c8b6ac005de4406f8f8edca1643e0c
+SHA256: 0e2a0ed56777f935bc0e676b75c68095809cc55a21d980b3ed35e9dc6c418892
+SHA512: 9c58fbf5a2db0de6d96b5676c9d42e7bdcb668845709f9d267b2ea5db0bed864a5166440abb4f3f4f2843c969b715db629053b6b6b6a57ef140f8ae390f3693c
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
-Build-Ids: 0ce44d74f029d61653f77d6c9d26058941481104 54908be9dab78468f8acf1fdfbb6db20e6d17429 9641763c6820dedc9ba8b801b1692105294d3dd6 a0e35841193a9b94cfecd4229c3052350c504d8b dbc30b00da8e099d4168d6f5046392fefe04e1e1
+Build-Ids: 23eb7f14a54db1a62615bb2c8fbd3fe71f74e2d7 4ff27bba2f012093613e1757fe3395d983df35f9 a2706f6fa336db4b45ab4f3acff2269271fd0480 c93f1e87b0ab751ffeb3a6dd76872307d3c52bd8 ead987b57e43c4835679990e779de2726b35200f
 

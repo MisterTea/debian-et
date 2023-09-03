@@ -1,0 +1,37 @@
+Package: et
+Priority: optional
+Section: universe/net
+Installed-Size: 4558
+Maintainer: Jason Gauci <jgmath2000@gmail.com>
+Architecture: armhf
+Version: 6.2.8-trixie1
+Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.5), libprotobuf32 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3 (>= 3.0.0), libstdc++6 (>= 13.1), libunwind8, libutempter0 (>= 1.1.5), libgcc1 (>= 1:3.3), libtinfo5
+Filename: pool/main/e/et/et_6.2.8-trixie1_armhf.deb
+Size: 965672
+MD5sum: c0c2b6e8ff2baf48739399e93d98aa0c
+SHA1: 94b88560e0b63ddc2d2026d1bc4df8353b9bdbfc
+SHA256: 192bd56097901a9a216926b6f81c1d4106b0018467085eed45a73873f2ac20d2
+SHA512: cc1a316fa1dd1a984da0d9bb9e0b21f15705e94698e610fb3e861767e9519a9d1ce1d1c876fd735b612f2d35b50535b9854ff43f9db157998b41d6dbddaa7b79
+Description: Remote terminal for the busy and impatient
+ Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
+Homepage: https://mistertea.github.io/EternalTCP/
+
+Package: et-dbgsym
+Priority: optional
+Section: universe/debug
+Installed-Size: 75733
+Maintainer: Jason Gauci <jgmath2000@gmail.com>
+Architecture: armhf
+Source: et
+Version: 6.2.8-trixie1
+Depends: et (= 6.2.8-trixie1)
+Filename: pool/main/e/et/et-dbgsym_6.2.8-trixie1_armhf.deb
+Size: 75702696
+MD5sum: c287dc218fdf200f20d79a13892ceafb
+SHA1: 55cab072c8c21935034724b69921e8dff8e3e06a
+SHA256: 30efbc7adb7f7eea2e9bae654ca4d938c8d550e31144a3dd5b118706630a780c
+SHA512: fa72a21ff0ea3079d75889d330537c8de09e2043c999034c47ed2cc5c54b0bd50d30f6f75d3fdb319c00001782799b9c6a036d1666ec9d22c622201a877acda7
+Description: debug symbols for et
+Auto-Built-Package: debug-symbols
+Build-Ids: 0a63537c251030ca0c5d1df91486f45564754bb8 5aaaf5dfa947427fe391e1aa0e36072b7bd96347 6047f6735524daa5266993c9c0245330fd2ed6c5 be7e13f09e9916fc3b5f6787e9e852a0607dfc8b eca1707ceef698d050744289f3473ef798c93858
+
