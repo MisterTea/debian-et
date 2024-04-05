@@ -1,17 +1,17 @@
 Package: et
 Priority: optional
 Section: universe/net
-Installed-Size: 8216
+Installed-Size: 8343
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: arm64
-Version: 6.2.8-trixie1
-Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libprotobuf32 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3 (>= 3.0.0), libstdc++6 (>= 13.1), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3), libtinfo5
-Filename: pool/main/e/et/et_6.2.8-trixie1_arm64.deb
-Size: 1144604
-MD5sum: adf191fa925e1993090f4a1a6df5a00a
-SHA1: 9a6b63167875dc426b052733e05f2c435987bc4c
-SHA256: c7a9e5f3b30c5884ae1ccfd2625b3cd28773fa597286c05a097e7ba0c57b7194
-SHA512: f5c1ac141ef7a47324cbaf194c3f3ec5748b6b804575f528a62fa5dd33b2fda2b8c433d424437facdfd20c24d53fbb6e3c67810df1409fd862252b47bb33733e
+Version: 6.2.8-trixie2
+Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libprotobuf32 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3 (>= 3.0.0), libstdc++6 (>= 13.1), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3)
+Filename: pool/main/e/et/et_6.2.8-trixie2_arm64.deb
+Size: 1140748
+MD5sum: 82b97cc3136bfa42c25d4a226849a3d8
+SHA1: de1ea8c2307b9fb61c56cf18c00de08d40e25fd3
+SHA256: e505070d7cc988f63d4aed1b8fc007d076972ed9d6c0b746b65748d3c70c878b
+SHA512: 241553ee5305de923bbb3d44191ddc4d4438ba52af3adee8547351608f552ce0a25d0cafddb8f91c2d6ef0ce14328f0d29fec4b4496df7aacd3e682755512c3b
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -19,19 +19,19 @@ Homepage: https://mistertea.github.io/EternalTCP/
 Package: et-dbgsym
 Priority: optional
 Section: universe/debug
-Installed-Size: 129935
+Installed-Size: 130037
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: arm64
 Source: et
-Version: 6.2.8-trixie1
-Depends: et (= 6.2.8-trixie1)
-Filename: pool/main/e/et/et-dbgsym_6.2.8-trixie1_arm64.deb
-Size: 130418532
-MD5sum: 3b9ea3a578a442f1e41d34dbe9d16155
-SHA1: f4e514511f52c3a73d60070c07a9976f04b5927c
-SHA256: d333bb24b80dbc825b33bf8b59ef0e5722a454182ef862c02773ac323018d228
-SHA512: 63ecdbc326ce48263a66243d8f5c8c40e308655591ed28030c67207be380e2c10d13968e042422bae2fe76ac238c4e66d2a7a38864874de2061bdfedc3c60459
+Version: 6.2.8-trixie2
+Depends: et (= 6.2.8-trixie2)
+Filename: pool/main/e/et/et-dbgsym_6.2.8-trixie2_arm64.deb
+Size: 130471792
+MD5sum: 3c8932f37a459eadfa505311e9bda176
+SHA1: c3bfbbbde2f55c2d50ecc5a814efc8d09fbe5d05
+SHA256: 84dec5a90b46d6cf65164b5b667251d3f213d78b0d3827848e0460a3e09488d7
+SHA512: 49291ff3f6e246c8d38c3516902f68fdebbe590d908fec4f4e9702b3378548188b342227efbf1889fa7745d6d9f6babcb0e01c2b839d349422b8abc298d3d3a9
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
-Build-Ids: 16fa48c1a9bb3cdea874c0e483b444dedf3dcce8 48b5bf5991e23fcce32fad26e53846e7368655f8 69ac4c28691c30a5cee51cb18c1ac8070acd70b5 9c4126eaeb55a50e7b005903e3a3d305d37d9fdb a9c4daa4a4332d86d1f414c4883b5ce47ada3cc3
+Build-Ids: 1cce827e48ff72540b555908b2183f1e3da5cade 80558da3d5cc57bdbfd2e1327c337bcc8026f41b 9c918b68b9784e706e5bfaf5cce8e196cb85d555 d64f1de4acc6b93e876b3dd710898cc2411c472c d78c94e9bf248a4faeb4cc8a9d7985b7d6ce6351
 
