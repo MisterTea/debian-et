@@ -1,0 +1,37 @@
+Package: et
+Priority: optional
+Section: universe/net
+Installed-Size: 4452
+Maintainer: Jason Gauci <jgmath2000@gmail.com>
+Architecture: armhf
+Version: 6.2.8-bullseye2
+Depends: libc6 (>= 2.28), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.5), libprotobuf23 (>= 3.12.4), libsodium23 (>= 0.6.0), libssl1.1 (>= 1.1.1), libstdc++6 (>= 9), libunwind8, libutempter0 (>= 1.1.5), libgcc1 (>= 1:3.3)
+Filename: pool/main/e/et/et_6.2.8-bullseye2_armhf.deb
+Size: 950872
+MD5sum: df43bd37c6073767d41f9ec037a1a832
+SHA1: 3cdd21eb966f4d3bd442318bb533d18b15220a97
+SHA256: e2bac61ada11c904386d654df26aa1d7949d5cd40c19f0b8e6e5e2bb99070da0
+SHA512: 880603984bc969bec88b12f45bfa871892dd23b620e247cab0896ee6065317d585bead3886236234afc9a5a310a36df929d212950bb6f4c1c9587f6e152ea345
+Description: Remote terminal for the busy and impatient
+ Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
+Homepage: https://mistertea.github.io/EternalTCP/
+
+Package: et-dbgsym
+Priority: optional
+Section: universe/debug
+Installed-Size: 78558
+Maintainer: Jason Gauci <jgmath2000@gmail.com>
+Architecture: armhf
+Source: et
+Version: 6.2.8-bullseye2
+Depends: et (= 6.2.8-bullseye2)
+Filename: pool/main/e/et/et-dbgsym_6.2.8-bullseye2_armhf.deb
+Size: 78346840
+MD5sum: c752a53daba09469c12f8c805e844861
+SHA1: 9ac95e7697f1b3290fc97709b6963fbc54b1e2f6
+SHA256: 7c5357cfb03704a5f0f62517126d514a0b783d3f7508b30853c5b1f950c4ca9b
+SHA512: e90c271ed1778bed4a2cda7bd6e3bdf9faa48941d848d1bdd240f378a7b2ea1ac15cf217212d7e749daa4747a34a8bedce7e37a331bbb6fd5583b5d5da61d033
+Description: debug symbols for et
+Auto-Built-Package: debug-symbols
+Build-Ids: 4193c77e845b11b5a50eadf1d3e9ae6dc7435f81 48f2efc79efeb355b6d01665406215453a0ec6e2 66730b52f8e62c9b0b37fbe49e272fa71ee54cef a5043394432dc90b885c80593c4a1062f80b78c9 b781a08d54a239318810f55d0491593421043a81
+
