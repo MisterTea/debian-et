@@ -1,0 +1,37 @@
+Package: et
+Priority: optional
+Section: universe/net
+Installed-Size: 12412
+Maintainer: Jason Gauci <jgmath2000@gmail.com>
+Architecture: arm64
+Version: 6.2.11-forky2
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.0), libprotobuf32t64 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3)
+Filename: pool/main/e/et/et_6.2.11-forky2_arm64.deb
+Size: 1712656
+MD5sum: f135ae613a0898e464ad9870dbdc556a
+SHA1: 9cefef766670e7c3371eec6b767cfd2d8e9304db
+SHA256: c63a203dfe18112e88571556b98c96ae1dcd3594c2de7aefd43bb462b809fd49
+SHA512: ec76f0717a244c8bebbcf65af8cec2d2c8b4d8b73867421c7788e08d99266b2564b44e2939ac2f5cab2a409a52fc69bb7b74cdcc9dcdd323d888ebee178a96bf
+Description: Remote terminal for the busy and impatient
+ Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
+Homepage: https://mistertea.github.io/EternalTCP/
+
+Package: et-dbgsym
+Priority: optional
+Section: universe/debug
+Installed-Size: 164738
+Maintainer: Jason Gauci <jgmath2000@gmail.com>
+Architecture: arm64
+Source: et
+Version: 6.2.11-forky2
+Depends: et (= 6.2.11-forky2)
+Filename: pool/main/e/et/et-dbgsym_6.2.11-forky2_arm64.deb
+Size: 156091012
+MD5sum: fb5bc86b2d80ead0f97035b9e89d992d
+SHA1: f857719a01d652fb8a09094af8773bd4f22e39bc
+SHA256: ffe18121b758b420fb60156372ce3b520153e933ea5683dac1f9709b9db0212f
+SHA512: c9bba1f8996a3cb5198ca7e706d4e8a06a4eae422bb962c542784426583146344f7d20fa4920504f92bb574ccf296e168b4877c64437a8af91aa4aa2fe3a1e54
+Description: debug symbols for et
+Auto-Built-Package: debug-symbols
+Build-Ids: 036b2888686b0e77399d6ad5bbab719acf9d874a 0f7b64ba9d6d0d68b0e59c4140b6f16a8559e9d7 15fc9d7260931e9bfb918d391a845652d8152b7c 35c19861273914833eb885b606279ecd0f653164 634b1a9241397c31484acf6bb025990d5ea32da8 87429cdc9b8e3712b173814fa147b4597f21dfe0
+

@@ -2,5 +2,6 @@ Origin: . trixie
 Label: . trixie
 Archive: trixie
 Suite: trixie
+Codename: trixie
 Architecture: armhf
 Component: main

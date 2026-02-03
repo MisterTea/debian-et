@@ -1,17 +1,17 @@
 Package: et
 Priority: optional
 Section: universe/net
-Installed-Size: 11933
+Installed-Size: 12019
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: amd64
-Version: 6.2.9-bookworm1
+Version: 6.2.11-bookworm2
 Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libprotobuf32 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3 (>= 3.0.0), libstdc++6 (>= 12), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3)
-Filename: pool/main/e/et/et_6.2.9-bookworm1_amd64.deb
-Size: 1793932
-MD5sum: b56fdfc1e5e485bea3b0ec896957f5ec
-SHA1: b6efbfca40f59ca05af73eae96fbcc5770759aaa
-SHA256: 79faa0e82f9f24afc7f13eb1885f77fc26d60867182ff1ea53ca8205d53d4ace
-SHA512: 38b7af5c0b7832be40c9ffa01de7549f3d9110f95c42efa21d48f9852a4a0bb568527fbfca08200e7e06cddf3a3ce1b62e256edc8e3d815a409ee06d35dd5d88
+Filename: pool/main/e/et/et_6.2.11-bookworm2_amd64.deb
+Size: 1825480
+MD5sum: 3ba357404afe4908186e0a77c1ffdb7c
+SHA1: a75fc08b07c2f944d8b4c82d69817021fde1ff10
+SHA256: 412ff174ec94e2be141efdc6e168fe92d81aed2c620956717be26ea36259ecf4
+SHA512: d0659b7c9a1d881ea39409c959cf88fcc46878d561ce7c106af55f736acb521e87773b9326fed33311a46a4f1129754d98d06a149365075d4a6bdb6749575110
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -19,19 +19,19 @@ Homepage: https://mistertea.github.io/EternalTCP/
 Package: et-dbgsym
 Priority: optional
 Section: universe/debug
-Installed-Size: 154928
+Installed-Size: 155204
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: amd64
 Source: et
-Version: 6.2.9-bookworm1
-Depends: et (= 6.2.9-bookworm1)
-Filename: pool/main/e/et/et-dbgsym_6.2.9-bookworm1_amd64.deb
-Size: 155133392
-MD5sum: fe9e61bc5a1c373578c890fe5fd8d3b4
-SHA1: 5b28e57e3abca72a85cc760647dda2af721b9769
-SHA256: a0bba899ea0d79c15093e7e9659baaa00328fcb0da9db44d741285b4b7bd7255
-SHA512: 57b73d93544b737a55c8d48b113df16eaa524d84bc80a78febad5e4684f8635a22d67d65cfe6f7d68d75123be11746878148ed86e3dea52469958530701791ce
+Version: 6.2.11-bookworm2
+Depends: et (= 6.2.11-bookworm2)
+Filename: pool/main/e/et/et-dbgsym_6.2.11-bookworm2_amd64.deb
+Size: 155481748
+MD5sum: ca0150a606d33d1600269e3ebc1dfa6d
+SHA1: cc7fad4813ca75a2b154f9be8a590a36549a8d4c
+SHA256: b19b69b16b32d4cfb57e4447e4668be6a24b0bb520584849ec53d4fa7173fdb8
+SHA512: 8de01f96e3a2e58f4e15fc2896b9af4ba211b60dc2444174902605b9316230104d6407457fdb91dc1fac9ad8e60b6a06b52a14e83cbb7822234391a5f09e5228
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
-Build-Ids: 110bd5eeadc427e3ac3408c76216d21052854413 26da1ebbfe934fa3c039f8eafc77ef623dc9902b 287a213cacf1891bd488c3388e0a54edb5939af0 3b3240c4ca0a1aa8e577ce0e5fd2bac05fa694ec 791d86180a2d91697e64884ecf44c3d4640837ba e57fb30c15ac54b5d69012711797d57c658cedd9
+Build-Ids: 2e082ee82dbd5e140e52de81676aa0233ba8eff3 93342ca61faaff9b79537882dacd64ec38ae5d89 b84f72c1b2d65b9ad15d14a08e4b5d35e7905f3c b9a0cba9c2a2fd698aaf3145a7c454ca200e6af3 c5d49629dccab6507b6a12f05fade342702c1ada cd1ed3ee849019d5d6350d09f05e6bdb2643646b
 
