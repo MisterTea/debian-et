@@ -7,11 +7,11 @@ Architecture: amd64
 Version: 6.2.11-bookworm2
 Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libprotobuf32 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3 (>= 3.0.0), libstdc++6 (>= 12), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3)
 Filename: pool/main/e/et/et_6.2.11-bookworm2_amd64.deb
-Size: 1825480
-MD5sum: 3ba357404afe4908186e0a77c1ffdb7c
-SHA1: a75fc08b07c2f944d8b4c82d69817021fde1ff10
-SHA256: 412ff174ec94e2be141efdc6e168fe92d81aed2c620956717be26ea36259ecf4
-SHA512: d0659b7c9a1d881ea39409c959cf88fcc46878d561ce7c106af55f736acb521e87773b9326fed33311a46a4f1129754d98d06a149365075d4a6bdb6749575110
+Size: 1824636
+MD5sum: 34c3eacdf50926fc0631eed2a5e973eb
+SHA1: 513d47f1f5d82fc3cc82246b20daa26ff19a916f
+SHA256: b64b72c986f2148060cac8ebcc9661ae000b6221afd5af2faba3639a9df6cdad
+SHA512: 34e6f48cc0e8fadd5c8b0f62ec84e670287faf0038614668ce202fd30b2a2f1806d7b564fe81f61126f4f6926a1d6be8c1fdeb8a2a442a5d28df9adb52ca3d87
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -26,11 +26,11 @@ Source: et
 Version: 6.2.11-bookworm2
 Depends: et (= 6.2.11-bookworm2)
 Filename: pool/main/e/et/et-dbgsym_6.2.11-bookworm2_amd64.deb
-Size: 155481748
-MD5sum: ca0150a606d33d1600269e3ebc1dfa6d
-SHA1: cc7fad4813ca75a2b154f9be8a590a36549a8d4c
-SHA256: b19b69b16b32d4cfb57e4447e4668be6a24b0bb520584849ec53d4fa7173fdb8
-SHA512: 8de01f96e3a2e58f4e15fc2896b9af4ba211b60dc2444174902605b9316230104d6407457fdb91dc1fac9ad8e60b6a06b52a14e83cbb7822234391a5f09e5228
+Size: 155481848
+MD5sum: d574ca21a118e82c432e0ef4c8234d17
+SHA1: 8394d05a06487f52bc770395ce743bdf6f33eede
+SHA256: f0f1b2cb535a61ededb99f5031e80e4ecb497a6d5b57fea400cdd49cec45a7b8
+SHA512: ba57c0b98ecb8b5fc6e332bf66d7e8141660df53abf62c6cad35202167d97be0efd5d89ea37fca3cbb82462b8b39941df4c533cddd212412d387acaa6f15124e
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
 Build-Ids: 2e082ee82dbd5e140e52de81676aa0233ba8eff3 93342ca61faaff9b79537882dacd64ec38ae5d89 b84f72c1b2d65b9ad15d14a08e4b5d35e7905f3c b9a0cba9c2a2fd698aaf3145a7c454ca200e6af3 c5d49629dccab6507b6a12f05fade342702c1ada cd1ed3ee849019d5d6350d09f05e6bdb2643646b

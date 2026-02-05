@@ -7,11 +7,11 @@ Architecture: armhf
 Version: 6.2.11-trixie2
 Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.5), libprotobuf32t64 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3)
 Filename: pool/main/e/et/et_6.2.11-trixie2_armhf.deb
-Size: 1377912
-MD5sum: 3aaec7f68ddfb65687b7b8e9b737d13a
-SHA1: 60d8d618c34618db13e8f3a2bf3b41a69d04d147
-SHA256: 0205a01d7a66836cc54bf215a26c4601a6af8594ae8b9ad36deee4cea383fd32
-SHA512: 8a958785a2dbc4e8e3dea1ac7bb61d4eefcd9f5c6c57fa3810135414d259b78013737542ef1289cb16af71f53183d631ea0d0edbc0ca3b122958d81e6dcf28b4
+Size: 1377820
+MD5sum: 6e5d31dc541248a80bf0db8c4a09fcf6
+SHA1: 7056dbd575f51a56c376b5b44550fcfc33c3be42
+SHA256: c48282aba3be618c36ceabeaaa4b7ff0c25823cf0baa84c80447ec3148f47815
+SHA512: 56f72f8b52f64a7a5cbf64cd2718abc9d0027ed89c151ee5ab2449695b07ec696f0940b3bdc4e7ae860eb1984fe1b371a618b3b89318e26b1d77ac717a7a1f46
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -26,11 +26,11 @@ Source: et
 Version: 6.2.11-trixie2
 Depends: et (= 6.2.11-trixie2)
 Filename: pool/main/e/et/et-dbgsym_6.2.11-trixie2_armhf.deb
-Size: 89935380
-MD5sum: 8a9c90606e51e9088f93e585ace10428
-SHA1: 90ec14869cc3c073d8fd6c5b15684b027afe1629
-SHA256: 1b9b4c5663df0d3b0a3b0ab00c132f80f97e926037ccf49d38d64929a1889909
-SHA512: 65384768cac59155e3e1e4bf52c4ce1b246ee747429c0e8f3806a529c29b5c1eb40743a6370ae91773e95f1987cbb90258810994e9e989493615db700b19072a
+Size: 89935140
+MD5sum: b6590b4d0d096e1e5551ce1b4d262f6b
+SHA1: 686ed1590d3e51fd28f3d1b5e9f2faa5285cbc7f
+SHA256: 20417052a2ebe44c33804013cff6dd6876ca1427122e9d7ddfa98700b1a06a05
+SHA512: 103fc29ebd6fca9ebc735628d8efda4fe7b010bc59d38f4e35b59fd69624f079f2c6872934f068fa43e6f83afd191ce128c7095f45cd8e2d8e70679de854dce9
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
 Build-Ids: 086bc75718ec0fba21b77e8c156b2460c8613756 2fac6fe79b0f474573cea30abecb2d5386c76b63 54536cab7ac39f12649ddf75054d0ffecbf8e294 7075f7836249ec3b865413714b322896c2e1bdc4 bbd89a995687766214dc7b862fc39ceaf748b192 f5ef4b628dcd8958887b1554e12d798cd2eaf900

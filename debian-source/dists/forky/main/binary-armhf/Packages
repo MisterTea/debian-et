@@ -7,11 +7,11 @@ Architecture: armhf
 Version: 6.2.11-forky2
 Depends: libc6 (>= 2.38), libcurl4t64 (>= 7.16.2), libgcc-s1 (>= 3.5), libprotobuf32t64 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3)
 Filename: pool/main/e/et/et_6.2.11-forky2_armhf.deb
-Size: 1367056
-MD5sum: f59b8bb42d4a536a5752adb82e19c06a
-SHA1: a4ba3b72b083b9f72c9624f8bd3eabf83e28aaa7
-SHA256: 0465c5db1b035dbc42d27e12d99408f2d6da6e578ea152ec9eca54f4ef7cd4bc
-SHA512: 1addbf298f9d26d8b8fb916e79dc73d9509eb01ac65c5710968cb8638211217f4bc4d88a06fe7f269b7136e404ec2954c26f6f5309c2bd28609a9cdb8f99685e
+Size: 1366556
+MD5sum: 0932d2fe66b9720dee74d4f61eebc5f0
+SHA1: c1234027014b48f4fa72cc65bae604ebbb1a39f3
+SHA256: f52c6d798582a012831fd72fd59f18bf388fa9891536375fdc3e0e693b62ae71
+SHA512: 2bb9bc353ba061a5004c27bd8e0cdc1e92dde242c9bfcb1f180c395923a580328c1a40c90fff3a62506ee3a6b14d89653dac413f24fa744756bfffb0cd3e2958
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
@@ -26,11 +26,11 @@ Source: et
 Version: 6.2.11-forky2
 Depends: et (= 6.2.11-forky2)
 Filename: pool/main/e/et/et-dbgsym_6.2.11-forky2_armhf.deb
-Size: 90741716
-MD5sum: f7ece4b22d94f17f35ffa1ef5df3be5c
-SHA1: 84ea48f46c1dff716a2eb92d6b80d22dfe193628
-SHA256: 248436ca12cc053772ca9f3a943993243890a9dd80eab220125af747fc6791e1
-SHA512: 7227bac215071e3521d3a5040cbbf4a01b5d802ee3ee4c6a81f01b3f169854f649310023e5790fcde8290c09620daf044cf36fa403d26a3512fb0e2b69027f2f
+Size: 90741736
+MD5sum: 60924487145749d359fe1298b1927f4f
+SHA1: 388b01ff0d180abd4adb82c501304fbd5d612f99
+SHA256: c4e8978738bdacaaf57860f4149307c6defdc552d0a2bca3c583c722ba49e41b
+SHA512: 149e37eb745d45214d1f19d15ce54e3f0c6d3e8b5bcff2ef611bfb98e6337a4acc6ce9f1af1dba595c5263ee8d468738a55268bca4536f56a2eadc889e0d0579
 Description: debug symbols for et
 Auto-Built-Package: debug-symbols
 Build-Ids: 0a2c43125efb9e4c3c2ba05d8e6d28e7a4007a84 0e2df7875174e741d582806628d2a3de22fe7151 991f673ff57781ac698ed78448e8c0f6df4c3894 bd37f07d89df15b33fbb3cd22c359fc7c5ee97e0 dfd9bdd789abafc34fd1b2fcc528d75f8d49b07c ea0a85792a92c88b27b02b8cb648c3fb5d0f3a3e
