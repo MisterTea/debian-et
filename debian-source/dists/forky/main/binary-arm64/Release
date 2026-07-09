@@ -1,0 +1,7 @@
+Origin: . forky
+Label: . forky
+Archive: forky
+Suite: forky
+Codename: forky
+Architecture: arm64
+Component: main

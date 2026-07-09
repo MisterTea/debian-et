@@ -1,0 +1,18 @@
+Package: et
+Priority: optional
+Section: universe/net
+Installed-Size: 6529
+Maintainer: Jason Gauci <jgmath2000@gmail.com>
+Architecture: arm64
+Version: 7.0.0-trixie1
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libprotobuf32t64 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3)
+Filename: pool/main/e/et/et_7.0.0-trixie1_arm64.deb
+Size: 886904
+MD5sum: 59c98790a1625bb8fcc9a786941d7798
+SHA1: 6b91b5c6d6779cf8e9e1aea00efd4c306ee071c7
+SHA256: 0de05b51d1a8bf072730cdc1361bf37926bb073b18b58b0ac722648f69c43abc
+SHA512: 591be3c04f178b47fa9f19183e13de36563ec47877575c3d701caf74094c08cd3da48d3dad1bb1afcfb9ea4fcad02897e128cfa510b5246067e8b5e610f26442
+Description: Remote terminal for the busy and impatient
+ Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
+Homepage: https://mistertea.github.io/EternalTCP/
+

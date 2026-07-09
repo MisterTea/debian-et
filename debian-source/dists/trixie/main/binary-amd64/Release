@@ -1,0 +1,7 @@
+Origin: . trixie
+Label: . trixie
+Archive: trixie
+Suite: trixie
+Codename: trixie
+Architecture: amd64
+Component: main
