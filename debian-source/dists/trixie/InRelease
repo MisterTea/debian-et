@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Origin: . trixie
 Label: . trixie
 Suite: trixie
@@ -74,3 +77,14 @@ SHA512:
  ca3a85f027b6180eab7c80a1924df7875079b6496aeaabdd033cd2d60b26e0aa17dfaf157f13b0671ce2e4f05161ba17ab50cadb1ec8a11fe5188c1fe1858424      701 main/binary-arm64/Packages.bz2
  8a62e08b49468ff276caf44ab1b1352786d630920b35cfd357b3888e5cb876a0792026622b6a1cc7def15ebe0c1164b0dcdf5190904ecfcc68862405c31a03dc      664 main/binary-arm64/Packages.gz
  1ea21001ddac8a030bc893e8922ae35ed32facb7d5b5015e892a8217d617a1b6534507b12a56c7783037f1ae45ba830716aef0b7d3c9ff135c86c28d92bc7f31      116 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEG3gHxb6/acsQ5mvW+WUHdlfoXC0FAmpT7RcACgkQ+WUHdlfo
+XC2lWggAovY40ONGzUDWIZvxWWLASmTtNxTvMkf7ddjVHt4rpVYbZijtvB7Sj5Tx
+2QX4XpR/35gIuZwnKeGVcA0NBESl5M/sM8oP9racrnSDkeMJl273meaYvsXOwoGw
+GSTHgmH6XIVQzIrz9CcaT06qQFBfZLl1EX0hsTDdYh0c3NSS4MFakB85GcPtEVfe
++DNYlViuRwk81ScKlstTJZrcIl6gNL5wd59pRfJL0YIQJjSpd1ttuFpnKFPoDAqs
+kgoOR+zPpEdbWpTxI3h3r3wLzmklzORy4X6OBo8kmGFhoGeiAyWSUf3+CNtfcRz6
+6UJKzlriv17iLqfRmNArdPa22FRCfQ==
+=V3rR
+-----END PGP SIGNATURE-----

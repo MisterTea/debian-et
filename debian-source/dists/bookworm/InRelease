@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Origin: . bookworm
 Label: . bookworm
 Suite: bookworm
@@ -74,3 +77,14 @@ SHA512:
  73590e64813f04a67921a481813a110c0b41f0db1828bb63f8bf4db0d2e35363c068516fbf06e1e84be1e4314fef5f5f20bfe104c3b11b7c040e93319ecf6a2e      687 main/binary-arm64/Packages.bz2
  1ce43e4c00c34afb3b8b3c45a63724c55e7ab72a08745430e4439d87615fcf57d445a590fe50868c091bdad5f07b67b4c73cf817f1ba89ac9c29c381a7ec85ff      651 main/binary-arm64/Packages.gz
  a41607dfa6e4927db71d4316bda88cfc002ce0be94b0593006d14f14227e13e0627fbcf49955105b9a702b3c04c99c2c9453799f6eec7521547a64343fbfba18      126 main/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEG3gHxb6/acsQ5mvW+WUHdlfoXC0FAmpT5iUACgkQ+WUHdlfo
+XC00CwgApcwIgRyXf48RuSwYvggg6t2etm4zcfOXM2gINw/XCfYKnODvMNbclzqq
+QJ8JV+IqiYjyqA4CEQFOUVwZsEgQIN9dwtwHtKP5PyWzKtGEbXFdAYF0OeuTqKn/
+rnGIgry0uqNdBM9rSUFIQEggMT/vCLTzfQ6r0nD/3jgabFzSDJBAHVMzBjzSyfe0
+pUyiBJP7+0jxL+PyuE56a9JI6MyKTSNjp6PzXXCh+tcHYenGSnmVQqSDGZEtafdS
+adHtXmG3foT3nUrCKdwTvThAVZq1tCVfyHYja++m5amyLMQrf9PUjHuF03nFlsU/
+9cUrC/rCrc9q9g3kLwjYV/TR4wWV7g==
+=QewP
+-----END PGP SIGNATURE-----

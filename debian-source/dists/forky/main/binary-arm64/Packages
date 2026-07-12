@@ -8,10 +8,10 @@ Version: 7.0.0-forky1
 Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libprotobuf32t64 (>= 3.21.12), libsodium26 (>= 0.6.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3)
 Filename: pool/main/e/et/et_7.0.0-forky1_arm64.deb
 Size: 880668
-MD5sum: cddca5865cb6665de5acfb2980894e3b
-SHA1: 314d8e0bf0764bddd6c58bca72a5f1b8abfd7e33
-SHA256: e4b2ac12197abf606c29190917c8e2ccd35a208fdad2f1aab5833ec6e023324b
-SHA512: 15d20c99e865f4e24780b6f3b6172791ece5ce4907d5b53e57cdb688d1ef2874cc324ec85ebba3a1a2b8cfb4fbc3bbe62e6c31c79be6633ec7dae258806415c5
+MD5sum: c8679dc84620a4de541528b9fe7dcf09
+SHA1: c836508e0275d6ccdfb19585da4decea175dc3e0
+SHA256: 78d5670c9ac0408af4fc5ea3320c3078ccd7d5abb0bef182404388ab4da077fa
+SHA512: 221b2b93af8d69b6a310ab144e551b5bf3aa87139214d6e5a1ffdfb413e9c7da3a61ea40d11a288527eac520504bb740beead12c4a13ee2d314ef8e6fef5c4a0
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
