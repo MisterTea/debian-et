@@ -1,17 +1,17 @@
 Package: et
 Priority: optional
 Section: universe/net
-Installed-Size: 6593
+Installed-Size: 9870
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: arm64
-Version: 7.0.0-forky1
+Version: 7.1.1-forky1
 Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libprotobuf32t64 (>= 3.21.12), libsodium26 (>= 0.6.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3)
-Filename: pool/main/e/et/et_7.0.0-forky1_arm64.deb
-Size: 880668
-MD5sum: c8679dc84620a4de541528b9fe7dcf09
-SHA1: c836508e0275d6ccdfb19585da4decea175dc3e0
-SHA256: 78d5670c9ac0408af4fc5ea3320c3078ccd7d5abb0bef182404388ab4da077fa
-SHA512: 221b2b93af8d69b6a310ab144e551b5bf3aa87139214d6e5a1ffdfb413e9c7da3a61ea40d11a288527eac520504bb740beead12c4a13ee2d314ef8e6fef5c4a0
+Filename: pool/main/e/et/et_7.1.1-forky1_arm64.deb
+Size: 1488740
+MD5sum: 140f4246446f42f8432f01ba8c057623
+SHA1: f2061ad0b94aff990d276741f5d8f690cd88fd46
+SHA256: de1ebc2e05dfe838b5073b9560c50217c26950011e572f70f789205308c57d2e
+SHA512: 566b80f9cf1a81e3173190d32edf75192d088d7c179bc03596d6411478b2630f0c51e6ede92fcb6b79ad86a0a489cc08deda9853d3c6485aa7a98afe71fc72e7
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/

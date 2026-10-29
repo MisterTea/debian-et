@@ -1,17 +1,17 @@
 Package: et
 Priority: optional
 Section: universe/net
-Installed-Size: 6081
+Installed-Size: 11347
 Maintainer: Jason Gauci <jgmath2000@gmail.com>
 Architecture: arm64
-Version: 7.0.0-bookworm1
+Version: 7.1.1-bookworm1
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libprotobuf32 (>= 3.21.12), libsodium23 (>= 0.6.0), libssl3 (>= 3.0.0), libstdc++6 (>= 12), libunwind8, libutempter0 (>= 1.1.5), zlib1g (>= 1:1.1.4), libgcc1 (>= 1:3.3)
-Filename: pool/main/e/et/et_7.0.0-bookworm1_arm64.deb
-Size: 833732
-MD5sum: 456f8ba1708719d8784a46bce9b45d5e
-SHA1: f5bc2a97378b9d0b3155ee1e20bb85efac815cf9
-SHA256: 578dd68d4c45a38ed6dc76ccfe3f609c27a1c2006ad2e456dca309a6aa810656
-SHA512: d53f7044d7ee93bbae5547c6b7822f5cd450d040de4a02874c8f8d02e9269b6381774bb01746ea74b913f6aaa6e27d00bf8d4bb4e611774743fe4b590af0a862
+Filename: pool/main/e/et/et_7.1.1-bookworm1_arm64.deb
+Size: 1490664
+MD5sum: 461a4a705470224cdb64fc3e074a58da
+SHA1: eb3e33fd4e36e7b02b0f683b7cdb31fd5182d96a
+SHA256: 0d29de9d878ec6356a0b217d7418ef52ca0a2b8fa9e5dabf68c818dabf879827
+SHA512: 232e5a524a4cd47fb1115ab79e841753523f59e3ed6b656677b7a7c72f601dbd134acf285c3f4d9ecfb658f48a1f95756bb62b71db6dfe3ca88817789565b55c
 Description: Remote terminal for the busy and impatient
  Eternal Terminal is a remote shell that automatically reconnects without interrupting the session.
 Homepage: https://mistertea.github.io/EternalTCP/
